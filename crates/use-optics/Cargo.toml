@@ -1,6 +1,7 @@
 [package]
 name = "use-optics"
 description = "Optics primitives for spectra, wavelengths, and visible-light boundaries."
+publish = true
 authors.workspace = true
 version.workspace = true
 edition.workspace = true
@@ -15,3 +16,6 @@ categories = ["science"]
 
 [lints]
 workspace = true
+
+[package.metadata.docs.rs]
+all-features = true
